@@ -55,23 +55,40 @@
 //Exercícios de escrita de código
 
 //1-
-const nomeDoUsuario = prompt("Qual seu nome?")
-const emailDoUsuario = prompt("Qual seu email?")
+//const nomeDoUsuario = prompt("Qual seu nome?")
+//const emailDoUsuario = prompt("Qual seu email?")
  
-const fraseTemplateString = `O e-mail ${nomeDoUsuario}) foi cadastrado com sucesso. Seja bem-vinda(o),${nomeDoUsuario}`
-console.log(fraseTemplateString)
+//const fraseTemplateString = `O e-mail ${nomeDoUsuario}) foi cadastrado com sucesso. Seja bem-vinda(o),${nomeDoUsuario}`
+//console.log(fraseTemplateString)
 
-const fraseConcatenada = "O e-mail de " + nomeDoUsuario + "foi cadastrado com sucesso. Seja bem-vinda(o),"+ nomeDoUsuario + "."
-console.log(fraseConcatenada)
+//const fraseConcatenada = "O e-mail de " + nomeDoUsuario + "foi cadastrado com sucesso. Seja bem-vinda(o),"+ nomeDoUsuario + "."
+//console.log(fraseConcatenada)
 
 
 //2-
 //a)Faça um programa que contenha um array com 5 das suas comidas preferidas, armazenado em uma variável. 
-const comidasPreferidas = ["frango", "lasanha", "pizza", "estrogonofe", "almondegas"]
-console.log(comidasPreferidas)
-let quantidadePreferidas = comidasPreferidas.length
+const listadecomidasPreferidas = ["frango", "lasanha", "coxinha", "estrogonofe", "almondegas"]
 
-//a) Crie um array vazio e guarde-o em uma variável, chamada listaDeTarefas
+//const Umacomida = listadecomidasPreferidas[0]
+//console.log(Umacomida)
+//console.log(listadecomidasPreferidas)
+
+const comidasPreferidas = prompt("Qual sua comida favorita?")
+console.log(comidasPreferidas)
+
+
+//b)
+
+
+
+
+//const comidasPreferidas = prompt("Qual sua comida favorita")
+//console.log(comidasPreferidas)
+
+//a) Crie um array com vazio e guarde-o em uma variável, chamada listaDeTarefas
 //const listaDeTarefas
 
+//const corFavorita = prompt("Qual sua cor favorita")
+//const nome = prompt("Qual seu nome")
 
+//const fraseUsuario = prompt("Escreva uma frase")
