@@ -55,20 +55,36 @@
 
 
  //        Exercícios de escrita de código
+//1 - Escreva as funções explicadas abaixo:
 
  //a) A função não deve receber nenhum parâmetro e deve imprimir uma mensagem falando algumas informações sobre você, como: 
 
 //"Eu sou Caio, tenho 23 anos, moro em São Paulo e sou estudante."
 
-function imprimirNomes (nome, idade, cidade, profissao) {
- console.log("Eu sou" (nome), "tenho" (anos), "moro em "(cidade), "e sou" (profissao)
+//function imprimirNomes (nome, idade, cidade, profissao) {
+ //console.log("Eu sou" (nome), "tenho" (anos), "moro em "(cidade), "e sou" (profissao)
 
-    }
-    return frase
+   // }
+    //return frase
 
-    imprimirNomes (nome, idade, cidade, profissao)
+    //imprimirNomes (nome, idade, cidade, profissao)
 
-        console.log(imprimirNomes("Luciana", "46", "Montes Claros", "estudante"))
+     //   console.log(imprimirNomes("Luciana", "46", "Montes Claros", "estudante"))
+
+// b)         
+
+//2) Escreva as funções explicadas abaixo:
+
+//a) a) Escreva uma função que receba 2 números como parâmetros, e, dentro da função, faça a soma das duas entradas e retorne o resultado. Invoque a função e imprima no console o resultado.
+function somaDoisnumeros (numero1, numero2)
+const soma = numero1 + numero2
+return soma
+
+const resultado = somaDoisnumeros (Number(prompt("6")
+   console.log(resultado)
 
 
 
+
+
+/// 3)
