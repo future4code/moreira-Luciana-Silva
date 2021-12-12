@@ -152,18 +152,18 @@
 //2)Dado o seguinte array de produtos, realize as operações pedidas nos itens abaixo 
 //utilizando as funções de array map e filter:
 
-const produtos = [
-    { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
-    { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
-    { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
-    { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
-    { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
-    { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
-    { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
-    { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
-    { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
-    { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
- ]
+//const produtos = [
+   // { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+   // { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    ///{ nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+   // /{ nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+   // { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+  //  { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+  //  { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+  //  { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+   // { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+   // { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.80 }
+ //]
 
  //a) Crie um novo array que contenha apenas o nome de cada item:
 
@@ -175,7 +175,7 @@ const produtos = [
  //b) Crie um novo array que contenha um objeto com o nome e o preço de cada item,
  // aplicando 5% de desconto em todos eles
 
-//onst produtosDescontos = produtos.map((item) => {
+//const produtosDescontos = produtos.map((item) => {
  // const precoMenosCinco = item.preco * 0.95 
  // return item.nome + '' + precoMenosCinco
 //})
@@ -196,12 +196,20 @@ const produtos = [
 // e) Crie um novo array onde cada item é uma frase "Compre [NOME] por [PREÇO]". Esse array 
 //deve conter frases apenas  dos itens cujo nome contenha a palavra "Ypê".
 
-function contenhaProdutoIpe (item, indice, array){
-    if(item.nome.includes("Ypê"))
-    return  `Compre ${item.nome} por ${item.preco}`
-}
+//function contenhaProdutoIpe (item, indice, array){
+   // if(item.nome.includes("Ypê"))
+  //  return  `Compre ${item.nome} por ${item.preco}`
+//}
 
-const imprimirComIpe = produtos.filter(contenhaProdutoIpe)
-const imprimirComPreco = produtos.map(imprimirComIpe)
-console.log(imprimirComPreco)
+//const imprimirComIpe = produtos.filter(contenhaProdutoIpe)
+//const imprimirComPreco = produtos.map(imprimirComIpe)
+//console.log(imprimirComPreco)
     
+
+const numerosPrimos = (1.2, 3, 5, 6, 11, 13, 15, 17, 19, 21)
+for(numerosPrimos = 1; numero <= 25; numero++) {
+  se (numero % 2 != 0) 
+      imprime(numerosPrimos);
+  }
+
+  
