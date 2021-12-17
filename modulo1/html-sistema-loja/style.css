@@ -1,0 +1,27 @@
+ 
+
+h1{
+    color:salmon
+}
+
+.linda{
+    background-color: seagreen;
+}
+
+
+
+
+.flores{
+    background-color:blue
+    
+
+}
+
+.container img{
+    width: 100px;
+    height: 20px ;
+    object-fit: contain;
+    background-color: aqua;   
+}
+
+
