@@ -35,6 +35,8 @@ function imprimeIdade() {
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
+  peso = Number(prompt("Digite seu peso em kg!"))
+  altura = Number(prompt("Digite sua altura em metros!"))
     const imc = peso / (altura * altura)
   
     return imc
@@ -44,9 +46,9 @@ function calculaIMC(peso, altura) {
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-  const nome = prompt('Digite aqui seu nome!')
-  const idade = Number(prompt('Digite aqui sua idade!'))
-  const email = prompt('Digite aqui seu email!')
+  const nome = prompt('Qual seu nome?')
+  const idade = Number(prompt('Qual sua idade?'))
+  const email = prompt('Qual seu email?')
 
   console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 }
@@ -115,9 +117,9 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
-  const anoAtual = Number(prompt("Digite o Ano Atual!"))
-  const anoNascimento = Number(prompt("Digite o ano do seu nascimento!"))
-  const anoEmissaoRg = Number(prompt("Digite o ano que foi emitido seu RG!"))
+  let anoAtual = Number(prompt("Digite o Ano Atual!"))
+  let anoNascimento = Number(prompt("Digite o ano do seu nascimento!"))
+  let anoEmissaoRg = Number(prompt("Digite o ano que foi emitido seu RG!"))
 
   const idade = anoAtual - anoNascimento
   const idadeRg = anoAtual - anoEmissaoRg
@@ -141,10 +143,12 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-  const maiorDeDezoito = prompt("Você tem mais de 18 anos? sim ou nao") === "sim"
+  const maisDeDezoito = prompt("Você tem mais de 18 anos? sim ou nao") === "sim"
   const ensinoMedioCompleto = prompt("Você possui ensino médio completo? sim ou nao") === "sim"
   const disponibilidade = prompt("Você possui disponibilidade exclusiva durante os horários do curso? sim ou nao") == "sim"
 
-  console.log(maiorDeDezoito && ensinoMedioCompleto && disponibilidade)
+  console.log(maisDeDezoito && ensinoMedioCompleto && disponibilidade)
 
 }
+
+
